@@ -14361,3 +14361,16 @@ p {
 .dark-theme .social__standard li a img {
   filter: none;
 }
+
+.about__section__four .about__thumb,
+.about__section__two .about__thumb {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .feature__work__section .work__lockyello,
+  .feature__work__section .work__blump {
+    right: 30px;
+    top: 5px;
+  }
+}
