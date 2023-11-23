@@ -14373,4 +14373,9 @@ p {
     right: 30px;
     top: 5px;
   }
+
+  .includeai__section .include__elements {
+    bottom: 0;
+    left: 276px;
+  }
 }
