@@ -385,7 +385,7 @@ body {
   color: var(--white);
   padding: 0;
   overflow-x: auto;
-  background-color: var(--body);
+  background-color: #0000006e;
 }
 
 h2,
@@ -14366,16 +14366,44 @@ p {
 .about__section__two .about__thumb {
   display: none;
 }
-
+.ban_img {
+  max-width: 600px;
+  height: 750px;
+  width: 100%;
+}
+.d_none {
+  display: none;
+}
 @media screen and (max-width: 800px) {
   .feature__work__section .work__lockyello,
   .feature__work__section .work__blump {
     right: 30px;
     top: 5px;
   }
-
+  .d_none {
+    top: -20px !important;
+    left: 268px !important;
+    width: 40px !important;
+    display: block;
+  }
+  .about__section__two .banner__nulldimond {
+    position: absolute;
+    right: 47%;
+    top: 9px;
+    animation: 10s linear infinite cir360;
+  }
+  .banner__section__two .banner__wrapper .banner__thumb {
+    position: static;
+    bottom: 0;
+    right: 0;
+  }
   .includeai__section .include__elements {
     bottom: 0;
     left: 276px;
+  }
+  .ban_img {
+    max-width: 400px;
+    height: 350px;
+    width: 100%;
   }
 }
